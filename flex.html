@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body > div{
+           height: 50px;
+           width: 50px;
+        }
+        .body > div:nth-child(odd){
+            background-color: bisque;
+            color: black;
+        }
+        .body{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            height: 100vh;
+            width: 100vw;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div>hello</div>
+        <div>hi</div>
+        <div>i am damini </div>
+        <div>3rd yr</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .p{
+      display: grid;
+        border: 3px solid black width ;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50px);
+        
+        gap : 10px;
+        width: 800px;
+    }
+    .p > div:nth-child(1){
+        background-color: lightblue;
+       
+    }
+
+    .p > div:nth-child(2){
+        background-color: greenyellow;
+       
+    }
+        .p > div:nth-child(3){
+        background-color: blueviolet;
+        
+    }
+        .p > div:nth-child(4){
+        background-color: lightcoral;
+
+    }
+
+  </style>
+</head>
+<body>
+<div class="p">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+</div>
+  
+</body>
+</html>
