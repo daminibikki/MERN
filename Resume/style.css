@@ -1,0 +1,130 @@
+body {
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+.resume-container {
+  max-width: 750px;
+  margin: 48px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(44, 62, 80, 0.08);
+  padding: 40px 36px 36px 36px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.header .subtitle {
+  color: #555;
+  font-size: 1.1em;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+.header .contact {
+  margin: 12px 0 0 0;
+  font-size: 1em;
+  color: #333;
+}
+.header .contact a {
+  color: #2d6cdf;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 500;
+  transition: color 0.2s;
+  word-break: break-all;
+}
+.header .contact a:hover {
+  text-decoration: underline;
+}
+.section {
+  margin-bottom: 32px;
+}
+.section-title {
+  font-size: 1.2em;
+  color: #1a418a;
+  margin-bottom: 10px;
+  font-weight: 600;
+  border-bottom: 1px solid #e0e7ff;
+  padding-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+.summary p {
+  font-size: 1.08em;
+  color: #333;
+  margin: 0 0 8px 0;
+  line-height: 1.6;
+}
+.education-list, .experience-list, .skills-list, .project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.education-list li, .experience-list li, .project-list li {
+  margin-bottom: 16px;
+}
+.education-list li span, .experience-list li span {
+  display: block;
+  color: #555;
+  font-size: 0.98em;
+  margin-top: 2px;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+}
+.skills-list li {
+  background: #e0e7ff;
+  color: #1a418a;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 0.98em;
+  font-weight: 500;
+}
+.project-list li {
+  background: #f8fafc;
+  border-radius: 6px;
+  padding: 10px 16px;
+  box-shadow: 0 1px 4px rgba(44, 62, 80, 0.04);
+}
+.education-box {
+  background: #f8fafc;
+  border: 1px solid #e0e7ff;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(44, 62, 80, 0.04);
+}
+.skills-list-simple {
+  color: #1a418a;
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+@media (max-width: 800px) {
+  .resume-container {
+    padding: 18px 4vw;
+  }
+}
+@media (max-width: 500px) {
+  .resume-container {
+    padding: 8px 2vw;
+  }
+  .header h1 {
+    font-size: 1.2em;
+  }
+  .section-title {
+    font-size: 1em;
+    padding-bottom: 2px;
+  }
+} 
